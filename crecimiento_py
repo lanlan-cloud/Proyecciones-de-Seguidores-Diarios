@@ -1,0 +1,20 @@
+# Inicialización de variables 
+seguidores_a = 4
+seguidores_b = 10
+tasa_a = 0.03   # 3% diario
+tasa_b = 0.015  # 1.5% diario
+
+días = 0
+
+# La condición que termina el bucle es cuando
+# el número de seguidores de A supera al de B
+while seguidores_a <= seguidores_b:
+    # Crecimiento diario compuesto
+    seguidores_a *= (1 + tasa_a)
+    seguidores_b *= (1 + tasa_b)
+    # Contamos los días en cada iteración
+    días += 1
+    
+# Resultado final
+print(f'Tomará {días} días para que Instagram (A) supere a Facebook (B).')
+print(f'En el día {días}, Instagram tendrá {seguidores_a:.2f} seguidores y Facebook tendrá {seguidores_b:.2f} seguidores.')
