@@ -1,0 +1,4 @@
+Componente	Uso Específico
+Lenguaje	Python 3.13
+Librerías (Core)	No se requirieron librerías externas; se utilizaron operaciones matemáticas y estructuras de control nativas (bucles while y operadores de asignación).
+Entorno	Ejecutado y validado en un entorno de desarrollo integrado (IDE) para garantizar la precisión del cálculo compuesto.
